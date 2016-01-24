@@ -1,0 +1,18 @@
+{
+    "version": "1.0.0",
+    "summary": "A variant of the Elm architecture, where actions directly construct new models",
+    "repository": "https://github.com/SelectricSimian/elm-constructive.git",
+    "license": "MIT",
+    "source-directories": [
+        "src"
+    ],
+    "exposed-modules": [
+        "Constructive.Action",
+        "Constructive.Combinators"
+    ],
+    "dependencies": {
+        "elm-lang/core": "3.0.0 <= v < 4.0.0",
+        "evancz/focus": "2.0.0 <= v < 3.0.0"
+    },
+    "elm-version": "0.16.0 <= v < 0.17.0"
+}
